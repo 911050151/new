@@ -15,6 +15,10 @@ class add: UIViewController {
     @IBOutlet weak var a2: UILabel!
     var a=0;
     var b=0;
+    @IBAction func Ac(sender: UIButton) {
+        a1.text = "0"
+        a2.text = "0"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
