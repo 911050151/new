@@ -13,6 +13,7 @@ class add: UIViewController {
     var db:SQLiteDB!
     @IBOutlet weak var a1: UILabel!
     @IBOutlet weak var a2: UILabel!
+    @IBOutlet weak var Winner: UITextField!
     var a=0;
     var b=0;
     @IBAction func Ac(sender: UIButton) {
@@ -31,13 +32,42 @@ class add: UIViewController {
     }
     @IBAction func jia(sender: AnyObject) {
         a++;
-        a1.text!="\(a)";
+        if(a<21)
+        {
+            a1.text!="\(a)";
+        }
+        else if (a==21)
+        {
+            a1.text!="\(a)";
+            Winner.text!="红队获胜"
+        }
+        else
+        {
+            a=0;
+            a1.text!="\(a)";
+        }
+        
+       
         saveUser();
         //initUser();
     }
     @IBAction func jia1(sender: AnyObject) {
         b++;
-        a2.text!="\(b)";
+        if(b<21)
+        {
+            a2.text!="\(b)";
+        }
+        else if (b==21)
+        {
+            a2.text!="\(b)";
+            Winner.text!="蓝队获胜"
+        }
+        else
+        {
+            b=0;
+            a2.text!="\(b)";
+        }
+
         saveUser();
         //initUser();
     }

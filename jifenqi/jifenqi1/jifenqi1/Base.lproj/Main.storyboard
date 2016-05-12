@@ -115,11 +115,19 @@
                                     <action selector="Ac:" destination="EqI-kL-2jZ" eventType="touchUpInside" id="Qfm-r0-v5J"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="aTe-os-y1A">
+                                <rect key="frame" x="85" y="375" width="161" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="Winner" destination="aTe-os-y1A" id="U6D-8p-qwk"/>
                         <outlet property="a1" destination="rYT-1K-XP5" id="NfZ-cZ-hoJ"/>
                         <outlet property="a2" destination="KRN-lG-pan" id="bfY-SU-DC6"/>
                     </connections>
