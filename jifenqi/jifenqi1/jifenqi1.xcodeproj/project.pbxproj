@@ -23,6 +23,9 @@
 		86838A351CDAF43500EB3405 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86838A341CDAF43500EB3405 /* 2.jpg */; };
 		86838A371CDAF43A00EB3405 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86838A361CDAF43A00EB3405 /* 1.jpg */; };
 		86838A391CDAF5E300EB3405 /* add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86838A381CDAF5E300EB3405 /* add.swift */; };
+		8697F89F1CE4292200449E9B /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8697F89E1CE4292200449E9B /* 4.jpg */; };
+		8697F8A11CE4292700449E9B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8697F8A01CE4292700449E9B /* 3.jpg */; };
+		8697F8A31CE42BCE00449E9B /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8697F8A21CE42BCE00449E9B /* 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		86838A341CDAF43500EB3405 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../../2.jpg; sourceTree = "<group>"; };
 		86838A361CDAF43A00EB3405 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../1.jpg; sourceTree = "<group>"; };
 		86838A381CDAF5E300EB3405 /* add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
+		8697F89E1CE4292200449E9B /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../../4.jpg; sourceTree = "<group>"; };
+		8697F8A01CE4292700449E9B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../3.jpg; sourceTree = "<group>"; };
+		8697F8A21CE42BCE00449E9B /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../../5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,9 @@
 		86838A021CDAF39700EB3405 /* jifenqi1 */ = {
 			isa = PBXGroup;
 			children = (
+				8697F8A21CE42BCE00449E9B /* 5.jpg */,
+				8697F8A01CE4292700449E9B /* 3.jpg */,
+				8697F89E1CE4292200449E9B /* 4.jpg */,
 				86838A361CDAF43A00EB3405 /* 1.jpg */,
 				86838A341CDAF43500EB3405 /* 2.jpg */,
 				86838A031CDAF39700EB3405 /* AppDelegate.swift */,
@@ -267,11 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				86838A111CDAF39700EB3405 /* LaunchScreen.storyboard in Resources */,
+				8697F89F1CE4292200449E9B /* 4.jpg in Resources */,
 				86838A0E1CDAF39700EB3405 /* Assets.xcassets in Resources */,
+				8697F8A31CE42BCE00449E9B /* 5.jpg in Resources */,
 				86838A351CDAF43500EB3405 /* 2.jpg in Resources */,
 				867BB00A1CE0B17E00C6D00C /* data.db in Resources */,
 				86838A091CDAF39700EB3405 /* Main.storyboard in Resources */,
 				86838A371CDAF43A00EB3405 /* 1.jpg in Resources */,
+				8697F8A11CE4292700449E9B /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

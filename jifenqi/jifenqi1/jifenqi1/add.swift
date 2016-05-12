@@ -39,7 +39,7 @@ class add: UIViewController {
         else if (a==21)
         {
             a1.text!="\(a)";
-            Winner.text!="红队获胜"
+            Winner.text!="A获胜"
         }
         else
         {
@@ -60,7 +60,7 @@ class add: UIViewController {
         else if (b==21)
         {
             a2.text!="\(b)";
-            Winner.text!="蓝队获胜"
+            Winner.text!="B获胜"
         }
         else
         {
