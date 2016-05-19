@@ -10,6 +10,7 @@ import UIKit
 
 class add: UIViewController {
     
+    
     var db:SQLiteDB!
     @IBOutlet weak var a1: UILabel!
     @IBOutlet weak var a2: UILabel!
@@ -20,6 +21,31 @@ class add: UIViewController {
         a1.text = "0"
         a2.text = "0"
     }
+    
+    var time:NSTimer!
+    var timer:Int=0
+    @IBOutlet weak var time1: UILabel!
+    @IBOutlet weak var time2: UILabel!
+    
+    @IBAction func run(sender: UIButton) {
+        time =
+        NSTimer.scheduledTimerWithTimeInterval(1,target:self,Selector("tickDown"),userInfo:nil,repeats:true)
+
+        
+        
+    }
+    func tickDown()
+    {
+        timer++
+        let sec=timer%60
+        let min=timer%60
+        time1.text=String(min)
+        time2.text=String(sec)
+        saveUser()
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

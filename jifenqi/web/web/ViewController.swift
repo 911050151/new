@@ -7,16 +7,16 @@
 //
 
 import UIKit
-
+import <WebKit/WebKit.h>
 class ViewController: UIViewController {
 
    
     @IBOutlet weak var NewWeb1: UIWebView!
     
     @IBAction func NewWeb(sender: AnyObject) {
-        let url=NSURL(string:"http://blog.csdn.net/emperorzhi/article/details/44101711");
-        let request=NSURLRequest(URL:url!);
-        NewWeb1.loadRequest(request);
+        let url=NSURL(string:"www.baidu.com")
+        let request=NSURLRequest(URL:url!)
+        NewWeb1.loadRequest(request)
     }
     
     override func viewDidLoad() {
