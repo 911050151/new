@@ -12,6 +12,8 @@ class add: UIViewController {
     
     
     var db:SQLiteDB!
+    
+    
     @IBOutlet weak var a1: UILabel!
     @IBOutlet weak var a2: UILabel!
     @IBOutlet weak var Winner: UITextField!
@@ -20,29 +22,11 @@ class add: UIViewController {
     @IBAction func Ac(sender: UIButton) {
         a1.text = "0"
         a2.text = "0"
+        Winner.text=""
     }
     
-    var time:NSTimer!
-    var timer:Int=0
-    @IBOutlet weak var time1: UILabel!
-    @IBOutlet weak var time2: UILabel!
-    
-    @IBAction func run(sender: UIButton) {
-        time =
-        NSTimer.scheduledTimerWithTimeInterval(1,target:self,Selector("tickDown"),userInfo:nil,repeats:true)
-
-        
-        
-    }
-    func tickDown()
-    {
-        timer++
-        let sec=timer%60
-        let min=timer%60
-        time1.text=String(min)
-        time2.text=String(sec)
-        saveUser()
-    }
+    //@IBOutlet weak var time1: UILabel!
+    //@IBOutlet weak var time2: UILabel!
     
     
     
