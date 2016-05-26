@@ -7,37 +7,37 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="web" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WEB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CeC-6s-b8z">
-                                <rect key="frame" x="112" y="92" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" title="WEB"/>
-                                <connections>
-                                    <action selector="NewWeb:" destination="BYZ-38-t0r" eventType="touchDown" id="KbD-9S-w7n"/>
-                                </connections>
-                            </button>
-                            <webView contentMode="scaleToFill" id="d5t-9y-wBU">
-                                <rect key="frame" x="20" y="199" width="270" height="164"/>
+                            <webView contentMode="scaleToFill" id="wgR-lt-CJ1">
+                                <rect key="frame" x="31" y="263" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gub-wV-IaC">
+                                <rect key="frame" x="117" y="128" width="108" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Web"/>
+                                <connections>
+                                    <action selector="Add:" destination="BYZ-38-t0r" eventType="touchDown" id="I1r-iI-LjB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="NewWeb1" destination="d5t-9y-wBU" id="g0d-2w-f02"/>
+                        <outlet property="Webview" destination="wgR-lt-CJ1" id="AuS-jh-3CB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="124" y="390"/>
+            <point key="canvasLocation" x="105" y="397"/>
         </scene>
     </scenes>
 </document>
